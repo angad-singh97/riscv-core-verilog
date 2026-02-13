@@ -1,0 +1,228 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Fri Nov 22 23:05:38 2024
+[*]
+[dumpfile] "/home/angadsingh/pipelined-processor-project/trace.vcd"
+[dumpfile_mtime] "Fri Nov 22 21:29:20 2024"
+[dumpfile_size] 226626
+[savefile] "/home/angadsingh/pipelined-processor-project/waveform_simple_02.gtkw"
+[timestart] 378830
+[size] 1280 745
+[pos] -1 -1
+*-12.983128 383240 106960 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TOP.
+[treeopen] TOP.top.
+[treeopen] TOP.top.instructionExecutor.
+[treeopen] TOP.top.instructionExecutor.ALU_unit.
+[treeopen] TOP.top.instructionFetcher.instruction_cache.
+[treeopen] TOP.top.instructionMemoryHandler.
+[treeopen] TOP.top.registerFile.
+[sst_width] 221
+[signals_width] 415
+[sst_expanded] 1
+[sst_vpaned_height] 273
+@28
+TOP.top.clk
+TOP.top.reset
+@200
+-
+-
+-REGISTER SIGNALS
+@22
+[color] 3
+TOP.top.register(0)[63:0]
+[color] 1
+TOP.top.register(1)[63:0]
+[color] 3
+TOP.top.register(2)[63:0]
+[color] 3
+TOP.top.register(3)[63:0]
+[color] 3
+TOP.top.register(4)[63:0]
+[color] 3
+TOP.top.register(5)[63:0]
+[color] 3
+TOP.top.register(6)[63:0]
+[color] 3
+TOP.top.register(7)[63:0]
+[color] 1
+TOP.top.register(8)[63:0]
+[color] 1
+TOP.top.register(9)[63:0]
+[color] 3
+TOP.top.register(10)[63:0]
+[color] 3
+TOP.top.register(11)[63:0]
+[color] 3
+TOP.top.register(12)[63:0]
+[color] 3
+TOP.top.register(13)[63:0]
+[color] 3
+TOP.top.register(14)[63:0]
+[color] 3
+TOP.top.register(15)[63:0]
+[color] 3
+TOP.top.register(16)[63:0]
+[color] 3
+TOP.top.register(17)[63:0]
+[color] 1
+TOP.top.register(18)[63:0]
+[color] 3
+TOP.top.register(19)[63:0]
+[color] 3
+TOP.top.register(20)[63:0]
+[color] 3
+TOP.top.register(21)[63:0]
+[color] 3
+TOP.top.register(22)[63:0]
+[color] 3
+TOP.top.register(23)[63:0]
+[color] 3
+TOP.top.register(24)[63:0]
+[color] 3
+TOP.top.register(25)[63:0]
+[color] 3
+TOP.top.register(26)[63:0]
+[color] 3
+TOP.top.register(27)[63:0]
+[color] 3
+TOP.top.register(28)[63:0]
+[color] 3
+TOP.top.register(29)[63:0]
+[color] 3
+TOP.top.register(30)[63:0]
+[color] 3
+TOP.top.register(31)[63:0]
+@200
+-
+-FETCHER - HIGH LEVEL
+@23
+TOP.top.initial_pc[63:0]
+@22
+[color] 1
+TOP.top.instructionFetcher.cache_request_address[63:0]
+@28
+[color] 1
+TOP.top.instructionFetcher.if_id_pipeline_valid
+@22
+[color] 1
+TOP.top.if_id_instruction_reg[31:0]
+[color] 1
+TOP.top.if_id_pc_plus_i_reg[63:0]
+@200
+-
+-DECODER - HIGH LEVEL
+@22
+[color] 2
+TOP.top.instructionDecoder.pc_current[63:0]
+@28
+[color] 2
+TOP.top.id_ex_valid_reg
+@22
+[color] 2
+TOP.top.id_ex_reg_a_data[63:0]
+[color] 2
+TOP.top.id_ex_reg_b_data[63:0]
+[color] 2
+TOP.top.id_ex_control_signal_struct[217:0]
+@200
+-
+-EXECUTE - HIGH LEVEL
+@22
+[color] 3
+TOP.top.ex_mem_alu_data[63:0]
+@28
+[color] 3
+TOP.top.ex_mem_valid_reg
+@200
+-
+-MEMORY - HIGH LEVEL
+@22
+TOP.top.instructionMemoryHandler.decache_request_address[63:0]
+TOP.top.instructionMemoryHandler.reg_b_contents[63:0]
+@28
+TOP.top.instructionMemoryHandler.decache_request_ready
+TOP.top.instructionMemoryHandler.decache_result_ready
+TOP.top.instructionMemoryHandler.memory_done
+@22
+[color] 7
+TOP.top.mem_wb_alu_data[63:0]
+[color] 7
+TOP.top.mem_wb_loaded_data[63:0]
+@28
+[color] 7
+TOP.top.mem_wb_valid_reg
+TOP.top.registerFile.write_complete
+TOP.top.registerFile.write_enable
+@200
+-
+-
+@22
+TOP.top.instructionMemoryHandler.data_cache.address[63:0]
+TOP.top.instructionMemoryHandler.data_cache.burst_counter[3:0]
+@28
+TOP.top.instructionMemoryHandler.data_cache.cache_hit
+TOP.top.instructionMemoryHandler.data_cache.check_done
+@22
+TOP.top.instructionMemoryHandler.data_cache.current_state[3:0]
+@28
+TOP.top.instructionMemoryHandler.data_cache.dirty_bits(0)(0)
+TOP.top.instructionMemoryHandler.data_cache.dirty_bits(0)(1)
+TOP.top.instructionMemoryHandler.data_cache.dirty_bits(1)(0)
+TOP.top.instructionMemoryHandler.data_cache.dirty_bits(1)(1)
+TOP.top.instructionMemoryHandler.data_cache.read_enable
+TOP.top.instructionMemoryHandler.data_cache.send_enable
+TOP.top.instructionMemoryHandler.data_cache.write_enable
+@200
+-
+-WRITE BACK - HIGH LEVEL
+@22
+TOP.top.reg_write_addr[4:0]
+TOP.top.reg_write_data[63:0]
+@28
+TOP.top.reg_write_enable
+@200
+-
+-ENABLE SIGNALS
+@28
+TOP.top.fetch_enable
+[color] 1
+TOP.top.fetch_reset_done
+TOP.top.decode_enable
+TOP.top.execute_enable
+TOP.top.memory_enable
+@200
+-
+-DONE SIGNALS
+@28
+[color] 2
+TOP.top.fetcher_done
+[color] 2
+TOP.top.decode_done
+[color] 2
+TOP.top.execute_done
+[color] 2
+TOP.top.memory_done
+@200
+-
+-PIPELINE VALID SIGNALS
+@28
+[color] 3
+TOP.top.if_id_valid_reg
+[color] 3
+TOP.top.id_ex_valid_reg
+[color] 3
+TOP.top.ex_mem_valid_reg
+[color] 3
+TOP.top.mem_wb_valid_reg
+@200
+-
+-CURRENT INSTRUCTION
+@22
+TOP.top.initial_pc[63:0]
+@28
+TOP.top.initial_selector
+@22
+TOP.top.target_address[63:0]
+[pattern_trace] 1
+[pattern_trace] 0

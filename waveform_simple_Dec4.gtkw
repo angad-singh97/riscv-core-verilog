@@ -1,0 +1,981 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Fri Dec  6 19:06:37 2024
+[*]
+[dumpfile] "/home/angadsingh/pipelined-processor-project/trace.vcd"
+[dumpfile_mtime] "Fri Dec  6 19:06:30 2024"
+[dumpfile_size] 53150676
+[savefile] "/home/angadsingh/pipelined-processor-project/waveform_simple_Dec4.gtkw"
+[timestart] 443430
+[size] 1165 745
+[pos] -1 -1
+*-11.983128 4696470 106960 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TOP.
+[treeopen] TOP.top.
+[treeopen] TOP.top.instructionExecutor.
+[treeopen] TOP.top.instructionFetcher.instruction_cache.
+[treeopen] TOP.top.instructionMemoryHandler.data_cache.
+[treeopen] TOP.top.instructionMemoryHandler.data_cache.unnamedblk1.
+[treeopen] TOP.top.registerFile.
+[sst_width] 210
+[signals_width] 533
+[sst_expanded] 1
+[sst_vpaned_height] 342
+@28
+TOP.top.clk
+TOP.top.reset
+@200
+-
+-
+-REGISTER SIGNALS
+@22
+[color] 3
+TOP.top.register(0)[63:0]
+[color] 1
+TOP.top.register(1)[63:0]
+[color] 3
+TOP.top.register(2)[63:0]
+[color] 3
+TOP.top.register(3)[63:0]
+TOP.top.registerFile.register(4)[63:0]
+TOP.top.registerFile.register(5)[63:0]
+TOP.top.registerFile.register(6)[63:0]
+TOP.top.registerFile.register(7)[63:0]
+TOP.top.registerFile.register(8)[63:0]
+TOP.top.registerFile.register(9)[63:0]
+@c00022
+[color] 3
+TOP.top.register(10)[63:0]
+@28
+[color] 3
+(0)TOP.top.register(10)[63:0]
+[color] 3
+(1)TOP.top.register(10)[63:0]
+[color] 3
+(2)TOP.top.register(10)[63:0]
+[color] 3
+(3)TOP.top.register(10)[63:0]
+[color] 3
+(4)TOP.top.register(10)[63:0]
+[color] 3
+(5)TOP.top.register(10)[63:0]
+[color] 3
+(6)TOP.top.register(10)[63:0]
+[color] 3
+(7)TOP.top.register(10)[63:0]
+[color] 3
+(8)TOP.top.register(10)[63:0]
+[color] 3
+(9)TOP.top.register(10)[63:0]
+[color] 3
+(10)TOP.top.register(10)[63:0]
+[color] 3
+(11)TOP.top.register(10)[63:0]
+[color] 3
+(12)TOP.top.register(10)[63:0]
+[color] 3
+(13)TOP.top.register(10)[63:0]
+[color] 3
+(14)TOP.top.register(10)[63:0]
+[color] 3
+(15)TOP.top.register(10)[63:0]
+[color] 3
+(16)TOP.top.register(10)[63:0]
+[color] 3
+(17)TOP.top.register(10)[63:0]
+[color] 3
+(18)TOP.top.register(10)[63:0]
+[color] 3
+(19)TOP.top.register(10)[63:0]
+[color] 3
+(20)TOP.top.register(10)[63:0]
+[color] 3
+(21)TOP.top.register(10)[63:0]
+[color] 3
+(22)TOP.top.register(10)[63:0]
+[color] 3
+(23)TOP.top.register(10)[63:0]
+[color] 3
+(24)TOP.top.register(10)[63:0]
+[color] 3
+(25)TOP.top.register(10)[63:0]
+[color] 3
+(26)TOP.top.register(10)[63:0]
+[color] 3
+(27)TOP.top.register(10)[63:0]
+[color] 3
+(28)TOP.top.register(10)[63:0]
+[color] 3
+(29)TOP.top.register(10)[63:0]
+[color] 3
+(30)TOP.top.register(10)[63:0]
+[color] 3
+(31)TOP.top.register(10)[63:0]
+[color] 3
+(32)TOP.top.register(10)[63:0]
+[color] 3
+(33)TOP.top.register(10)[63:0]
+[color] 3
+(34)TOP.top.register(10)[63:0]
+[color] 3
+(35)TOP.top.register(10)[63:0]
+[color] 3
+(36)TOP.top.register(10)[63:0]
+[color] 3
+(37)TOP.top.register(10)[63:0]
+[color] 3
+(38)TOP.top.register(10)[63:0]
+[color] 3
+(39)TOP.top.register(10)[63:0]
+[color] 3
+(40)TOP.top.register(10)[63:0]
+[color] 3
+(41)TOP.top.register(10)[63:0]
+[color] 3
+(42)TOP.top.register(10)[63:0]
+[color] 3
+(43)TOP.top.register(10)[63:0]
+[color] 3
+(44)TOP.top.register(10)[63:0]
+[color] 3
+(45)TOP.top.register(10)[63:0]
+[color] 3
+(46)TOP.top.register(10)[63:0]
+[color] 3
+(47)TOP.top.register(10)[63:0]
+[color] 3
+(48)TOP.top.register(10)[63:0]
+[color] 3
+(49)TOP.top.register(10)[63:0]
+[color] 3
+(50)TOP.top.register(10)[63:0]
+[color] 3
+(51)TOP.top.register(10)[63:0]
+[color] 3
+(52)TOP.top.register(10)[63:0]
+[color] 3
+(53)TOP.top.register(10)[63:0]
+[color] 3
+(54)TOP.top.register(10)[63:0]
+[color] 3
+(55)TOP.top.register(10)[63:0]
+[color] 3
+(56)TOP.top.register(10)[63:0]
+[color] 3
+(57)TOP.top.register(10)[63:0]
+[color] 3
+(58)TOP.top.register(10)[63:0]
+[color] 3
+(59)TOP.top.register(10)[63:0]
+[color] 3
+(60)TOP.top.register(10)[63:0]
+[color] 3
+(61)TOP.top.register(10)[63:0]
+[color] 3
+(62)TOP.top.register(10)[63:0]
+[color] 3
+(63)TOP.top.register(10)[63:0]
+@1401200
+-group_end
+@22
+[color] 3
+TOP.top.register(11)[63:0]
+[color] 3
+TOP.top.register(12)[63:0]
+[color] 3
+TOP.top.register(13)[63:0]
+[color] 3
+TOP.top.register(14)[63:0]
+[color] 3
+TOP.top.register(15)[63:0]
+[color] 3
+TOP.top.register(16)[63:0]
+TOP.top.registerFile.register(17)[63:0]
+TOP.top.registerFile.register(18)[63:0]
+TOP.top.registerFile.register(19)[63:0]
+TOP.top.registerFile.register(20)[63:0]
+TOP.top.registerFile.register(21)[63:0]
+TOP.top.registerFile.register(22)[63:0]
+TOP.top.registerFile.register(23)[63:0]
+@200
+-
+-SNOOOOOOOOOOP
+@22
+TOP.top.m_axi_acsnoop[3:0]
+@200
+-
+-FETCHER - HIGH LEVEL
+@29
+TOP.top.clk
+@28
+TOP.top.fetcher_done
+TOP.top.ecall_detected
+@22
+TOP.top.initial_pc[63:0]
+[color] 1
+TOP.top.instructionFetcher.cache_request_address[63:0]
+@28
+TOP.top.instructionFetcher.recache_request_ready
+TOP.top.fetch_reset_done
+TOP.top.mux_selector
+@22
+TOP.top.target_address[63:0]
+@28
+[color] 1
+TOP.top.instructionFetcher.if_id_pipeline_valid
+@22
+[color] 1
+TOP.top.if_id_instruction_reg[31:0]
+[color] 1
+TOP.top.if_id_pc_plus_i_reg[63:0]
+@200
+-
+-DECODER - HIGH LEVEL
+@28
+TOP.top.decoder_enable_input
+@420
+TOP.top.decoder_instruction_input[31:0]
+@22
+TOP.top.decoder_pc_current_input[63:0]
+[color] 2
+TOP.top.instructionDecoder.pc_current[63:0]
+@24
+TOP.top.instructionDecoder.imm[63:0]
+@28
+[color] 2
+TOP.top.id_ex_valid_reg
+@24
+TOP.top.instructionDecoder.rd[4:0]
+TOP.top.instructionDecoder.rs1[4:0]
+TOP.top.instructionDecoder.rs2[4:0]
+@420
+[color] 2
+TOP.top.id_ex_reg_a_data[63:0]
+[color] 2
+TOP.top.id_ex_reg_b_data[63:0]
+@c00022
+[color] 2
+TOP.top.id_ex_control_signal_struct[217:0]
+@28
+[color] 2
+(0)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(1)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(2)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(3)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(4)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(5)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(6)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(7)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(8)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(9)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(10)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(11)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(12)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(13)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(14)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(15)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(16)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(17)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(18)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(19)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(20)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(21)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(22)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(23)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(24)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(25)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(26)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(27)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(28)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(29)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(30)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(31)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(32)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(33)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(34)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(35)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(36)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(37)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(38)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(39)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(40)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(41)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(42)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(43)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(44)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(45)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(46)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(47)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(48)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(49)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(50)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(51)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(52)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(53)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(54)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(55)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(56)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(57)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(58)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(59)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(60)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(61)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(62)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(63)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(64)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(65)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(66)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(67)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(68)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(69)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(70)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(71)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(72)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(73)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(74)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(75)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(76)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(77)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(78)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(79)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(80)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(81)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(82)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(83)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(84)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(85)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(86)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(87)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(88)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(89)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(90)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(91)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(92)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(93)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(94)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(95)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(96)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(97)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(98)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(99)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(100)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(101)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(102)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(103)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(104)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(105)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(106)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(107)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(108)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(109)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(110)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(111)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(112)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(113)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(114)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(115)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(116)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(117)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(118)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(119)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(120)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(121)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(122)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(123)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(124)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(125)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(126)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(127)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(128)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(129)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(130)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(131)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(132)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(133)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(134)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(135)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(136)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(137)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(138)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(139)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(140)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(141)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(142)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(143)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(144)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(145)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(146)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(147)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(148)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(149)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(150)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(151)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(152)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(153)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(154)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(155)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(156)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(157)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(158)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(159)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(160)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(161)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(162)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(163)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(164)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(165)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(166)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(167)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(168)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(169)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(170)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(171)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(172)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(173)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(174)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(175)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(176)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(177)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(178)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(179)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(180)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(181)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(182)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(183)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(184)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(185)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(186)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(187)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(188)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(189)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(190)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(191)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(192)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(193)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(194)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(195)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(196)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(197)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(198)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(199)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(200)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(201)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(202)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(203)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(204)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(205)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(206)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(207)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(208)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(209)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(210)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(211)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(212)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(213)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(214)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(215)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(216)TOP.top.id_ex_control_signal_struct[217:0]
+[color] 2
+(217)TOP.top.id_ex_control_signal_struct[217:0]
+@1401200
+-group_end
+@200
+-
+@c00022
+TOP.top.registerFile.register_busy[31:0]
+@28
+(0)TOP.top.registerFile.register_busy[31:0]
+(1)TOP.top.registerFile.register_busy[31:0]
+(2)TOP.top.registerFile.register_busy[31:0]
+(3)TOP.top.registerFile.register_busy[31:0]
+(4)TOP.top.registerFile.register_busy[31:0]
+(5)TOP.top.registerFile.register_busy[31:0]
+(6)TOP.top.registerFile.register_busy[31:0]
+(7)TOP.top.registerFile.register_busy[31:0]
+(8)TOP.top.registerFile.register_busy[31:0]
+(9)TOP.top.registerFile.register_busy[31:0]
+(10)TOP.top.registerFile.register_busy[31:0]
+(11)TOP.top.registerFile.register_busy[31:0]
+(12)TOP.top.registerFile.register_busy[31:0]
+(13)TOP.top.registerFile.register_busy[31:0]
+(14)TOP.top.registerFile.register_busy[31:0]
+(15)TOP.top.registerFile.register_busy[31:0]
+(16)TOP.top.registerFile.register_busy[31:0]
+(17)TOP.top.registerFile.register_busy[31:0]
+(18)TOP.top.registerFile.register_busy[31:0]
+(19)TOP.top.registerFile.register_busy[31:0]
+(20)TOP.top.registerFile.register_busy[31:0]
+(21)TOP.top.registerFile.register_busy[31:0]
+(22)TOP.top.registerFile.register_busy[31:0]
+(23)TOP.top.registerFile.register_busy[31:0]
+(24)TOP.top.registerFile.register_busy[31:0]
+(25)TOP.top.registerFile.register_busy[31:0]
+(26)TOP.top.registerFile.register_busy[31:0]
+(27)TOP.top.registerFile.register_busy[31:0]
+(28)TOP.top.registerFile.register_busy[31:0]
+(29)TOP.top.registerFile.register_busy[31:0]
+(30)TOP.top.registerFile.register_busy[31:0]
+(31)TOP.top.registerFile.register_busy[31:0]
+@1401200
+-group_end
+@200
+-
+@420
+TOP.top.instructionExecutor.ALU_unit.instruction[7:0]
+TOP.top.instructionExecutor.ALU_unit.result[63:0]
+@24
+TOP.top.instructionExecutor.ALU_unit.rs1[63:0]
+TOP.top.instructionExecutor.ALU_unit.rs2[63:0]
+@200
+-
+-EXECUTE - HIGH LEVEL
+@28
+TOP.top.instructionExecutor.localJumpSignal
+@420
+[color] 3
+TOP.top.ex_mem_alu_data[63:0]
+@28
+[color] 3
+TOP.top.ex_mem_valid_reg
+TOP.top.instructionExecutor.ecall_active
+@22
+TOP.top.instructionExecutor.ecall_alu_data_out[63:0]
+@28
+TOP.top.instructionExecutor.ecall_counter[2:0]
+TOP.top.instructionExecutor.ecall_done
+TOP.top.instructionExecutor.execute_done
+@200
+-
+-ENABLE SIGNALS
+@28
+TOP.top.fetch_enable
+[color] 1
+TOP.top.fetch_reset_done
+TOP.top.decode_enable
+TOP.top.execute_enable
+TOP.top.memory_enable
+TOP.top.write_back_enable
+@200
+-
+-
+@28
+[color] 3
+TOP.top.instructionMemoryHandler.data_cache.clock
+@200
+-
+@24
+TOP.top.instructionMemoryHandler.data_cache.current_state[3:0]
+TOP.top.instructionMemoryHandler.data_cache.next_state[3:0]
+@200
+-MEMORY - HIGH LEVEL
+@28
+TOP.top.instructionMemoryHandler.data_cache.cache_hit
+@24
+TOP.top.instructionMemoryHandler.decache_request_address[63:0]
+@22
+TOP.top.instructionMemoryHandler.data_cache.block_offset[5:0]
+#{set_index[5:0]} TOP.top.instructionMemoryHandler.data_cache.set_index[0]
+@420
+TOP.top.instructionMemoryHandler.reg_b_contents[63:0]
+@28
+[color] 1
+TOP.top.instructionMemoryHandler.decache_request_ready
+TOP.top.instructionMemoryHandler.data_cache.check_done
+@24
+TOP.top.instructionMemoryHandler.data_cache.unnamedblk3.i[31:0]
+@22
+TOP.top.instructionMemoryHandler.data_cache.unnamedblk4.i[31:0]
+TOP.top.instructionMemoryHandler.data_cache.tag[56:0]
+@24
+TOP.top.instructionMemoryHandler.data_cache.address[63:0]
+@22
+TOP.top.instructionMemoryHandler.data_cache.block_offset[5:0]
+@28
+TOP.top.instructionMemoryHandler.data_cache.set_index[0]
+TOP.top.instructionMemoryHandler.data_cache.cache_hit
+[color] 3
+TOP.top.instructionMemoryHandler.decache_result_ready
+TOP.top.instructionMemoryHandler.memory_done
+@22
+[color] 7
+TOP.top.mem_wb_alu_data[63:0]
+[color] 7
+TOP.top.mem_wb_loaded_data[63:0]
+@28
+[color] 7
+TOP.top.mem_wb_valid_reg
+TOP.top.registerFile.write_complete
+TOP.top.registerFile.write_enable
+@200
+-
+-
+-CACHE SIGNALS
+@28
+TOP.top.instructionMemoryHandler.data_cache.set_index[0]
+@24
+TOP.top.instructionMemoryHandler.data_cache.empty_way_next[31:0]
+@22
+TOP.top.instructionMemoryHandler.data_cache.block_offset[5:0]
+@24
+TOP.top.instructionMemoryHandler.loaded_data_out[63:0]
+TOP.top.instructionMemoryHandler.data_cache.data_size[2:0]
+@22
+TOP.top.instructionMemoryHandler.data_cache.data_out[63:0]
+TOP.top.instructionMemoryHandler.data_cache.data_out_next[63:0]
+TOP.top.instructionMemoryHandler.data_cache.temp_data[63:0]
+TOP.top.instructionMemoryHandler.data_cache.data_input[63:0]
+TOP.top.instructionMemoryHandler.data_cache.data_out[63:0]
+@28
+TOP.top.instructionMemoryHandler.data_cache.write_enable
+TOP.top.instructionMemoryHandler.data_cache.read_enable
+@22
+TOP.top.instructionMemoryHandler.data_cache.cache_data(0)(0)[511:0]
+TOP.top.instructionMemoryHandler.data_cache.cache_data(0)(1)[511:0]
+TOP.top.instructionMemoryHandler.data_cache.cache_data(1)(0)[511:0]
+TOP.top.instructionMemoryHandler.data_cache.cache_data(1)(1)[511:0]
+@200
+-
+@22
+TOP.top.instructionMemoryHandler.data_cache.current_state[3:0]
+TOP.top.instructionMemoryHandler.pc_I_offset[63:0]
+TOP.top.instructionMemoryHandler.reg_b_contents[63:0]
+@200
+-
+@420
+TOP.top.instructionMemoryHandler.data_cache.address[63:0]
+@22
+TOP.top.instructionMemoryHandler.data_cache.burst_counter[3:0]
+@28
+TOP.top.instructionMemoryHandler.data_cache.cache_hit
+TOP.top.instructionMemoryHandler.data_cache.check_done
+@22
+TOP.top.instructionMemoryHandler.data_cache.current_state[3:0]
+@28
+TOP.top.instructionMemoryHandler.data_cache.read_enable
+TOP.top.instructionMemoryHandler.data_cache.send_enable
+TOP.top.instructionMemoryHandler.data_cache.write_enable
+@200
+-
+-
+-
+-WRITE BACK - HIGH LEVEL
+@420
+TOP.top.writeback_alu_data_input[63:0]
+@22
+TOP.top.writeback_control_signals_struct_input[217:0]
+@28
+TOP.top.writeback_enable_input
+@22
+TOP.top.writeback_loaded_data_input[63:0]
+@24
+TOP.top.reg_write_addr[4:0]
+@22
+TOP.top.reg_write_data[63:0]
+@28
+TOP.top.reg_write_enable
+TOP.top.reg_write_complete
+TOP.top.write_back_done
+@200
+-
+@28
+TOP.top.instructionFetcher.clk
+@200
+-DONE SIGNALS
+@28
+TOP.top.registerFile.raw_dependency
+@c00022
+TOP.top.registerFile.register_busy[31:0]
+@28
+(0)TOP.top.registerFile.register_busy[31:0]
+(1)TOP.top.registerFile.register_busy[31:0]
+(2)TOP.top.registerFile.register_busy[31:0]
+(3)TOP.top.registerFile.register_busy[31:0]
+(4)TOP.top.registerFile.register_busy[31:0]
+(5)TOP.top.registerFile.register_busy[31:0]
+(6)TOP.top.registerFile.register_busy[31:0]
+(7)TOP.top.registerFile.register_busy[31:0]
+(8)TOP.top.registerFile.register_busy[31:0]
+(9)TOP.top.registerFile.register_busy[31:0]
+(10)TOP.top.registerFile.register_busy[31:0]
+(11)TOP.top.registerFile.register_busy[31:0]
+(12)TOP.top.registerFile.register_busy[31:0]
+(13)TOP.top.registerFile.register_busy[31:0]
+(14)TOP.top.registerFile.register_busy[31:0]
+(15)TOP.top.registerFile.register_busy[31:0]
+(16)TOP.top.registerFile.register_busy[31:0]
+(17)TOP.top.registerFile.register_busy[31:0]
+(18)TOP.top.registerFile.register_busy[31:0]
+(19)TOP.top.registerFile.register_busy[31:0]
+(20)TOP.top.registerFile.register_busy[31:0]
+(21)TOP.top.registerFile.register_busy[31:0]
+(22)TOP.top.registerFile.register_busy[31:0]
+(23)TOP.top.registerFile.register_busy[31:0]
+(24)TOP.top.registerFile.register_busy[31:0]
+(25)TOP.top.registerFile.register_busy[31:0]
+(26)TOP.top.registerFile.register_busy[31:0]
+(27)TOP.top.registerFile.register_busy[31:0]
+(28)TOP.top.registerFile.register_busy[31:0]
+(29)TOP.top.registerFile.register_busy[31:0]
+(30)TOP.top.registerFile.register_busy[31:0]
+(31)TOP.top.registerFile.register_busy[31:0]
+@1401200
+-group_end
+@28
+TOP.top.registerFile.raw_dep1
+TOP.top.registerFile.raw_dep2
+[color] 2
+TOP.top.fetcher_done
+[color] 2
+TOP.top.decode_done
+[color] 2
+TOP.top.execute_done
+[color] 2
+TOP.top.memory_done
+[color] 2
+TOP.top.instructionWriteBack.register_write_enable
+@200
+-
+-PIPELINE VALID SIGNALS
+@28
+[color] 3
+TOP.top.if_id_valid_reg
+[color] 3
+TOP.top.id_ex_valid_reg
+[color] 3
+TOP.top.ex_mem_valid_reg
+[color] 3
+TOP.top.mem_wb_valid_reg
+@200
+-
+@28
+TOP.top.clk
+@200
+-CURRENT INSTRUCTION
+@22
+[color] 1
+TOP.top.instructionFetcher.cache_request_address[63:0]
+TOP.top.initial_pc[63:0]
+@28
+TOP.top.upstream_disable
+[color] 3
+TOP.top.mux_selector
+@22
+TOP.top.target_address[63:0]
+[pattern_trace] 1
+[pattern_trace] 0

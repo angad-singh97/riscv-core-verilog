@@ -1,0 +1,100 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Fri Nov  8 04:55:56 2024
+[*]
+[dumpfile] "/home/jrathi/pipelined-processor-project/trace.vcd"
+[dumpfile_mtime] "Fri Nov  8 04:55:43 2024"
+[dumpfile_size] 7176429
+[savefile] "/home/jrathi/pipelined-processor-project/waveform_Nov6_001.gtkw"
+[timestart] 51638
+[size] 1854 1011
+[pos] -1 -1
+*-10.000000 53128 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TOP.
+[treeopen] TOP.top.
+[treeopen] TOP.top.instructionFetcher.
+[treeopen] TOP.top.instructionFetcher.instruction_cache.
+[treeopen] TOP.top.instructionMemoryHandler.
+[treeopen] TOP.top.registerFile.
+[sst_width] 311
+[signals_width] 338
+[sst_expanded] 1
+[sst_vpaned_height] 284
+@28
+TOP.top.clk
+TOP.top.reset
+@22
+[color] 1
+TOP.top.initial_pc[63:0]
+@28
+TOP.top.mux_selector
+@22
+[color] 1
+TOP.top.target_address[63:0]
+[color] 1
+TOP.top.entry[63:0]
+[color] 3
+TOP.top.if_id_instruction_reg[31:0]
+[color] 3
+TOP.top.if_id_instruction_reg_next[31:0]
+[color] 3
+TOP.top.if_id_pc_plus_i_reg[63:0]
+[color] 3
+TOP.top.if_id_pc_plus_i_reg_next[63:0]
+[color] 2
+TOP.top.instructionFetcher.pc_current[63:0]
+@28
+[color] 2
+TOP.top.instructionFetcher.select_target
+@22
+[color] 2
+TOP.top.instructionFetcher.target_address[63:0]
+@28
+TOP.top.instructionFetcher.cache_request_ready
+[color] 1
+TOP.top.initial_selector
+TOP.top.instructionFetcher.instruction_cache.check_done
+@22
+TOP.top.instructionFetcher.cache_request_address[63:0]
+@28
+TOP.top.instructionFetcher.instruction_cache.read_enable
+@22
+TOP.top.instructionFetcher.instruction_cache.current_state[3:0]
+@28
+TOP.top.instructionFetcher.instruction_cache.data_retrieved_next
+TOP.top.instructionFetcher.instruction_cache.m_axi_araddr[63:0]
+@24
+TOP.top.instructionFetcher.instruction_cache.m_axi_arburst[1:0]
+TOP.top.instructionFetcher.instruction_cache.m_axi_arlen[7:0]
+@28
+TOP.top.instructionFetcher.instruction_cache.m_axi_arready
+TOP.top.instructionFetcher.instruction_cache.m_axi_arsize[2:0]
+TOP.top.instructionFetcher.instruction_cache.m_axi_arvalid
+@22
+TOP.top.instructionFetcher.instruction_cache.m_axi_rdata[63:0]
+@28
+TOP.top.instructionFetcher.instruction_cache.m_axi_rlast
+TOP.top.instructionFetcher.instruction_cache.m_axi_rready
+TOP.top.instructionFetcher.instruction_cache.m_axi_rvalid
+@25
+TOP.top.instructionFetcher.instruction_cache.buffer_pointer[3:0]
+TOP.top.instructionFetcher.instruction_cache.burst_counter[2:0]
+@22
+TOP.top.instructionFetcher.instruction_cache.buffer_array(0)[31:0]
+TOP.top.instructionFetcher.instruction_cache.buffer_array(1)[31:0]
+TOP.top.instructionFetcher.instruction_cache.buffer_array(2)[31:0]
+TOP.top.instructionFetcher.instruction_cache.buffer_array(3)[31:0]
+TOP.top.instructionFetcher.instruction_cache.buffer_array(4)[31:0]
+TOP.top.instructionFetcher.instruction_cache.buffer_array(5)[31:0]
+TOP.top.instructionFetcher.instruction_cache.buffer_array(6)[31:0]
+TOP.top.instructionFetcher.instruction_cache.buffer_array(7)[31:0]
+TOP.top.instructionFetcher.instruction_cache.buffer_array(8)[31:0]
+TOP.top.instructionFetcher.instruction_cache.buffer_array(9)[31:0]
+TOP.top.instructionFetcher.instruction_cache.buffer_array(10)[31:0]
+TOP.top.instructionFetcher.instruction_cache.buffer_array(11)[31:0]
+TOP.top.instructionFetcher.instruction_cache.buffer_array(12)[31:0]
+TOP.top.instructionFetcher.instruction_cache.buffer_array(13)[31:0]
+TOP.top.instructionFetcher.instruction_cache.buffer_array(14)[31:0]
+TOP.top.instructionFetcher.instruction_cache.buffer_array(15)[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

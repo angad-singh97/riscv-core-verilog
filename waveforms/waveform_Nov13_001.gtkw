@@ -1,0 +1,65 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Thu Nov 14 03:43:15 2024
+[*]
+[dumpfile] "/home/angadsingh/pipelined-processor-project/trace.vcd"
+[dumpfile_mtime] "Thu Nov 14 03:27:09 2024"
+[dumpfile_size] 80018054
+[savefile] "/home/angadsingh/pipelined-processor-project/waveform_Nov13_001.gtkw"
+[timestart] 54680
+[size] 1280 713
+[pos] -1 -1
+*-11.000000 58360 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TOP.
+[treeopen] TOP.top.
+[treeopen] TOP.top.instructionFetcher.instruction_cache.
+[treeopen] TOP.top.instructionMemoryHandler.
+[treeopen] TOP.top.registerFile.
+[sst_width] 279
+[signals_width] 457
+[sst_expanded] 1
+[sst_vpaned_height] 295
+@28
+TOP.top.clk
+TOP.top.reset
+@200
+-
+-FETCH SIGNALS
+@28
+[color] 3
+TOP.top.fetch_enable
+[color] 3
+TOP.top.fetch_ready
+[color] 3
+TOP.top.fetcher_done
+@200
+-
+-CACHE SIGNALS
+@28
+TOP.top.instructionFetcher.cache_result_ready
+TOP.top.instructionFetcher.cache_request_ready
+@200
+-
+-FETCH PIPELINE REGISTERS
+@22
+[color] 1
+TOP.top.if_id_instruction_reg[31:0]
+[color] 1
+TOP.top.if_id_instruction_reg_next[31:0]
+[color] 1
+TOP.top.if_id_pc_plus_i_reg[63:0]
+[color] 1
+TOP.top.if_id_pc_plus_i_reg_next[63:0]
+@200
+-
+-PC-RELATED FLAGS
+@28
+[color] 2
+TOP.top.mux_selector
+@22
+[color] 2
+TOP.top.target_address[63:0]
+[color] 2
+TOP.top.initial_pc[63:0]
+[pattern_trace] 1
+[pattern_trace] 0

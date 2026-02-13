@@ -1,0 +1,26 @@
+# Verilator build
+obj_dir/
+
+# Waveforms & traces
+trace.vcd
+*.vcd
+
+# DRAMSim results
+dramsim2/results/
+
+# Core dumps
+core
+core.*
+
+# Build artifacts
+*.o
+*.d
+*.tgz
+
+# Debug / temp
+dump.txt
+*.swp
+*~
+
+# macOS
+.DS_Store

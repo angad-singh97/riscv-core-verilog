@@ -1,0 +1,218 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Mon Nov 18 08:19:39 2024
+[*]
+[dumpfile] "/home/angadsingh/pipelined-processor-project/trace.vcd"
+[dumpfile_mtime] "Mon Nov 18 08:14:38 2024"
+[dumpfile_size] 20503041
+[savefile] "/home/angadsingh/pipelined-processor-project/waveform_Nov17_001.gtkw"
+[timestart] 97210
+[size] 1256 700
+[pos] -1 -1
+*-12.672268 106960 106960 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TOP.
+[treeopen] TOP.top.
+[treeopen] TOP.top.instructionFetcher.instruction_cache.
+[treeopen] TOP.top.instructionMemoryHandler.
+[treeopen] TOP.top.registerFile.
+[sst_width] 210
+[signals_width] 373
+[sst_expanded] 1
+[sst_vpaned_height] 245
+@28
+TOP.top.clk
+TOP.top.reset
+@200
+-
+-FETCH SIGNALS
+@28
+[color] 3
+TOP.top.fetch_enable
+[color] 3
+TOP.top.fetcher_done
+@200
+-
+-CACHE SIGNALS
+@28
+TOP.top.instructionFetcher.cache_result_ready
+TOP.top.instructionFetcher.cache_request_ready
+@200
+-
+-
+@28
+TOP.top.if_id_valid_reg
+TOP.top.id_ex_valid_reg
+TOP.top.ex_mem_valid_reg
+TOP.top.mem_wb_valid_reg
+@200
+-
+-
+-
+@28
+TOP.top.clk
+@200
+-
+-
+-
+@28
+TOP.top.instructionWriteBack.wb_module_enable
+@22
+TOP.top.mem_wb_alu_data[63:0]
+TOP.top.mem_wb_control_signals_reg[213:0]
+TOP.top.mem_wb_loaded_data[63:0]
+@28
+TOP.top.mem_wb_valid_reg
+TOP.top.memory_done
+TOP.top.memory_enable
+TOP.top.write_back_enable
+@22
+TOP.top.instructionWriteBack.write_data[63:0]
+@28
+TOP.top.instructionWriteBack.wb_module_enable
+TOP.top.instructionWriteBack.write_enable
+@22
+TOP.top.instructionWriteBack.write_reg[4:0]
+@200
+-
+@28
+TOP.top.write_complete
+@200
+-
+@29
+TOP.top.mem_wb_valid_reg
+@200
+-
+-REGISTER VALUES
+-
+@22
+TOP.top.register(0)[63:0]
+TOP.top.register(1)[63:0]
+TOP.top.register(2)[63:0]
+TOP.top.register(3)[63:0]
+TOP.top.register(4)[63:0]
+TOP.top.register(5)[63:0]
+TOP.top.register(6)[63:0]
+TOP.top.register(7)[63:0]
+TOP.top.register(8)[63:0]
+TOP.top.register(9)[63:0]
+TOP.top.register(10)[63:0]
+TOP.top.register(11)[63:0]
+TOP.top.register(12)[63:0]
+TOP.top.register(13)[63:0]
+TOP.top.register(14)[63:0]
+TOP.top.register(15)[63:0]
+TOP.top.register(16)[63:0]
+TOP.top.register(17)[63:0]
+TOP.top.register(18)[63:0]
+TOP.top.register(19)[63:0]
+TOP.top.register(20)[63:0]
+TOP.top.register(21)[63:0]
+TOP.top.register(22)[63:0]
+TOP.top.register(23)[63:0]
+TOP.top.register(24)[63:0]
+TOP.top.register(25)[63:0]
+TOP.top.register(26)[63:0]
+TOP.top.register(27)[63:0]
+TOP.top.register(28)[63:0]
+TOP.top.register(29)[63:0]
+TOP.top.register(30)[63:0]
+TOP.top.register(31)[63:0]
+@200
+-
+-
+@28
+TOP.top.clk
+@200
+-
+@22
+TOP.top.instructionMemoryHandler.loaded_data_out[63:0]
+@28
+TOP.top.instructionMemoryHandler.memory_done
+@200
+-DONE SIGNALS
+@28
+TOP.top.fetcher_done
+TOP.top.decode_done
+TOP.top.execute_done
+TOP.top.memory_done
+@200
+-
+-ENABLE SIGNALS
+@28
+TOP.top.fetch_enable
+[color] 1
+TOP.top.fetch_reset_done
+TOP.top.decode_enable
+TOP.top.execute_enable
+TOP.top.memory_enable
+@200
+-
+-VALID REGISTER
+@28
+TOP.top.if_id_valid_reg
+TOP.top.id_ex_valid_reg
+[color] 2
+TOP.top.register_values_ready
+TOP.top.ex_mem_valid_reg
+TOP.top.mem_wb_valid_reg
+@200
+-
+-JUMP SIGNALS
+@22
+TOP.top.initial_pc[63:0]
+TOP.top.target_address[63:0]
+@28
+[color] 3
+TOP.top.mux_selector
+@22
+[color] 1
+TOP.top.instructionFetcher.cache_request_address[63:0]
+@200
+-
+-
+-PROGRAM COUNTER
+@22
+TOP.top.initial_pc[63:0]
+TOP.top.target_address[63:0]
+@28
+[color] 3
+TOP.top.mux_selector
+@22
+[color] 1
+TOP.top.instructionFetcher.cache_request_address[63:0]
+@200
+-
+-FETCH PIPELINE REGISTERS
+@22
+[color] 1
+TOP.top.if_id_instruction_reg[31:0]
+[color] 1
+TOP.top.if_id_instruction_reg_next[31:0]
+[color] 1
+TOP.top.if_id_pc_plus_i_reg[63:0]
+[color] 1
+TOP.top.if_id_pc_plus_i_reg_next[63:0]
+@200
+-
+-
+-EX MEM PIPELINE REGISTERS
+@22
+TOP.top.ex_mem_alu_data[63:0]
+TOP.top.ex_mem_alu_data_next[63:0]
+TOP.top.ex_mem_pc_plus_I_offset_reg[63:0]
+TOP.top.ex_mem_pc_plus_I_offset_reg_next[63:0]
+TOP.top.ex_mem_reg_b_data[63:0]
+@200
+-
+-
+-PC-RELATED FLAGS
+@28
+[color] 2
+TOP.top.mux_selector
+@22
+[color] 2
+TOP.top.target_address[63:0]
+[color] 2
+TOP.top.initial_pc[63:0]
+[pattern_trace] 1
+[pattern_trace] 0
