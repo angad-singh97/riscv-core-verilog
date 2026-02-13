@@ -108,17 +108,13 @@ cd mktest && make
 
 ---
 
-## Authors
+## Author
 
 | Name | LinkedIn |
 |------|----------|
-| Jayesh Rathi | [Connect](https://www.linkedin.com/in/jayesh-rathi) |
-| Deboparna Banerjee | [Connect](https://www.linkedin.com/in/deboparna-banerjee) |
 | Angad Singh | [Connect](https://www.linkedin.com/in/angadsingh) |
 
 *CSE502 — Computer Architecture Course Project*
-
-> **Note:** Update the LinkedIn URLs above with your actual profiles before pushing.
 
 ---
 
