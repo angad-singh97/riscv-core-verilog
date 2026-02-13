@@ -118,6 +118,8 @@ cd mktest && make
 
 *CSE502 — Computer Architecture Course Project*
 
+> **Note:** Update the LinkedIn URLs above with your actual profiles before pushing.
+
 ---
 
 ## License
