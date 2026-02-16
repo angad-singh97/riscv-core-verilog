@@ -1,10 +1,18 @@
 # RISC-V 5-Stage Pipelined Processor
 
-A fully pipelined **64-bit RISC-V** processor implementation with set-associative caches, built in SystemVerilog and designed for Verilator simulation.
+> **A cycle-accurate 64-bit RISC-V CPU** — 5-stage pipeline, set-associative caches, hazard handling, and ECALL support. Built from scratch in SystemVerilog.
 
-![RISC-V](https://img.shields.io/badge/RISC--V-64--bit-2a2a2a?style=flat-square&logo=riscv)
-![SystemVerilog](https://img.shields.io/badge/SystemVerilog-HDL-2a2a2a?style=flat-square)
-![Verilator](https://img.shields.io/badge/Verilator-Verified-2a2a2a?style=flat-square)
+[![RISC-V](https://img.shields.io/badge/RISC--V-64--bit-F2D017?style=flat-square&logo=riscv&logoColor=black)](https://riscv.org/)
+[![SystemVerilog](https://img.shields.io/badge/SystemVerilog-HDL-DA1A32?style=flat-square)](https://www.systemverilog.io/)
+[![Verilator](https://img.shields.io/badge/Verilator-Verified-DA1A32?style=flat-square)](https://www.veripool.org/verilator/)
+
+---
+
+## What This Is
+
+A **fully functional RISC-V processor** implementing the RV64IM instruction set. It fetches, decodes, executes, loads/stores, and writes back — with real caches, branch resolution, and RAW hazard detection. Designed to run RISC-V binaries via Verilator simulation.
+
+**Skills demonstrated:** RTL design · Pipelining · Cache design · Hazard handling · AXI protocol · Low-level systems
 
 ---
 
@@ -14,97 +22,51 @@ A fully pipelined **64-bit RISC-V** processor implementation with set-associativ
 ┌─────────┐   ┌─────────┐   ┌─────────┐   ┌─────────┐   ┌──────────┐
 │  Fetch  │──▶│ Decode  │──▶│ Execute │──▶│ Memory  │──▶│Write-back│
 └────┬────┘   └────┬────┘   └────┬────┘   └────┬────┘   └────┬──────┘
-     │            │             │             │             │
-     ▼            ▼             ▼             ▼             ▼
-  I-Cache    Reg File        ALU         D-Cache      Reg File
-  (recache)                  Branch      (decache)
-                             Resolve
+     │             │             │             │             │
+     ▼             ▼             ▼             ▼             ▼
+  I-Cache     Reg File         ALU        D-Cache      Reg File
+  (2-way SA)   RAW stall    Branches    (2-way SA)   ECALL
 ```
 
-### Features
+### Implemented Features
 
-- **5-stage pipeline** — Fetch, Decode, Execute, Memory, Write-back
-- **2-way set-associative caches** — Separate instruction (recache) and data (decache) caches
-- **Branch predictor** — Always-not-taken; pipeline flush on misprediction
-- **Full RV64IM** — RISC-V 64-bit base + multiply/divide extensions
-- **AXI memory interface** — Course-provided DRAMSim2 memory model
-- **ECALL support** — Linux syscall emulation for running binaries (implemented in write-back)
+| Component | Description |
+|-----------|-------------|
+| **5-stage pipeline** | Fetch → Decode → Execute → Memory → Write-back |
+| **2-way set-associative caches** | Separate I-cache & D-cache, LRU replacement |
+| **Branch predictor** | Always-not-taken; pipeline flush on misprediction |
+| **RAW hazard handling** | Register busy bits, decode-stage stall |
+| **RV64IM ISA** | Base integer + multiply/divide extensions |
+| **ECALL support** | Linux syscall emulation in write-back stage |
+| **AXI interface** | Connects to course-provided DRAMSim2 memory model |
 
 ---
 
 ## Project Structure
 
-```
-├── top.sv              # Top-level pipeline glue
-├── fetcher.sv           # Stage 1: Instruction fetch
-├── decoder.sv           # Stage 2: Decode & control
-├── execute.sv            # Stage 3: ALU & branch resolve
-├── alu.sv               # Arithmetic logic unit
-├── memory.sv            # Stage 4: Load/store
-├── write_back.sv        # Stage 5: Register write-back
-├── register_file.sv     # 32×64-bit register file
-├── recache.sv           # Instruction cache
-├── decache.sv           # Data cache
-├── control_signals_struct.svh
-├── pipeline_reg_struct.svh
-├── Sysbus.defs          # DPI-C declarations
-├── main.cpp             # Verilator testbench
-├── system.cpp           # Memory system, DRAMSim2
-├── fake-os.cpp          # Syscall emulation
-├── hardware.cpp         # UART, CLINT devices
-└── dramsim2/            # DRAM configuration
-```
+| File | Role |
+|------|------|
+| `top.sv` | Pipeline control, stage enables, hazard logic |
+| `fetcher.sv` | Instruction fetch, PC select, I-cache front-end |
+| `decoder.sv` | R/I/S/B/J/U-type decode, control signals |
+| `execute.sv` | ALU, branch resolution, jump target |
+| `memory.sv` | Load/store via D-cache |
+| `write_back.sv` | Reg write, ECALL handling |
+| `recache.sv` | 2-way SA instruction cache |
+| `decache.sv` | 2-way SA data cache (write-back, snoop) |
 
 ---
 
-## Getting Started
-
-### Prerequisites
-
-- **Verilator** — Simulation
-- **DRAMSim2** — Memory model (linked from course environment)
-- **libelf, ncurses** — C++ dependencies
-
-### Build & Run
+## Quick Start
 
 ```bash
-make          # Compile
-make run      # Run simulation (uses PROG binary from Makefile)
+make          # Compile with Verilator
+make run      # Run simulation (set PROG in Makefile to your RISC-V binary)
 make clean    # Remove build artifacts
+gtkwave trace.vcd   # View waveforms after run
 ```
 
-### Configuring the Program Binary
-
-Edit the `PROG` variable in the Makefile:
-
-```makefile
-PROG=/path/to/your/riscv64-elf-binary
-```
-
-### Viewing Waveforms
-
-After running, open `trace.vcd`:
-
-```bash
-gtkwave trace.vcd
-```
-
----
-
-## Custom Test Programs
-
-Use `mktest/` to build simple RISC-V binaries:
-
-```bash
-cd mktest && make
-# Then set PROG in main Makefile to mktest/test
-```
-
----
-
-## Documentation
-
-- **[PROJECT_CONTEXT.md](PROJECT_CONTEXT.md)** — Detailed architecture and design notes for contributors and AI-assisted development
+**Prerequisites:** Verilator, DRAMSim2 (course env), libelf, ncurses
 
 ---
 
@@ -112,14 +74,14 @@ cd mktest && make
 
 | Name |
 |------|
-| Angad Singh — [LinkedIn](https://www.linkedin.com/in/angad-sde-nyc/) |
+| **Angad Singh** · [LinkedIn](https://www.linkedin.com/in/angad-sde-nyc/) |
 | Jayesh Rathi |
 | Deboparna Banerjee |
 
-*CSE-502 — Computer Architecture, under Prof. Michael Ferdman*
+*CSE-502 — Computer Architecture, Stony Brook University, Prof. Michael Ferdman*
 
 ---
 
 ## License
 
-This project was developed as a course assignment. Please check with course policies before reuse.
+Course project — see course policies for reuse.
