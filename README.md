@@ -1,6 +1,6 @@
 # RISC-V 5-Stage Pipelined Processor
 
-A fully pipelined **64-bit RISC-V** processor implementation with set-associative caches, built in SystemVerilog and simulated with Verilator.
+A fully pipelined **64-bit RISC-V** processor implementation with set-associative caches, built in SystemVerilog and designed for Verilator simulation.
 
 ![RISC-V](https://img.shields.io/badge/RISC--V-64--bit-2a2a2a?style=flat-square&logo=riscv)
 ![SystemVerilog](https://img.shields.io/badge/SystemVerilog-HDL-2a2a2a?style=flat-square)
@@ -27,8 +27,8 @@ A fully pipelined **64-bit RISC-V** processor implementation with set-associativ
 - **2-way set-associative caches** — Separate instruction (recache) and data (decache) caches
 - **Branch predictor** — Always-not-taken; pipeline flush on misprediction
 - **Full RV64IM** — RISC-V 64-bit base + multiply/divide extensions
-- **AXI memory interface** — Connectable to DRAMSim2 for realistic memory modeling
-- **ECALL support** — Linux syscall emulation for running binaries
+- **AXI memory interface** — Course-provided DRAMSim2 memory model
+- **ECALL support** — Linux syscall emulation for running binaries (implemented in write-back)
 
 ---
 
@@ -108,13 +108,15 @@ cd mktest && make
 
 ---
 
-## Author
+## Authors
 
-| Name | LinkedIn |
-|------|----------|
-| Angad Singh | [Connect](https://www.linkedin.com/in/angadsingh) |
+| Name |
+|------|
+| Angad Singh — [LinkedIn](https://www.linkedin.com/in/angad-sde-nyc/) |
+| Jayesh Rathi |
+| Deboparna Banerjee |
 
-*CSE502 — Computer Architecture Course Project*
+*CSE-502 — Computer Architecture, under Prof. Michael Ferdman*
 
 ---
 

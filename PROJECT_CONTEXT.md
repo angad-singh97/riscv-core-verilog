@@ -12,7 +12,7 @@ This is a **5-stage fully pipelined RISC-V 64-bit CPU** with:
 - **AXI** memory interface
 - **Verilator** simulation + C++ testbench (DRAMSim2 for memory)
 
-Author: Angad Singh (CSE502 course project).
+Authors: Angad Singh, Jayesh Rathi, Deboparna Banerjee. CSE-502 under Prof. Michael Ferdman.
 
 ---
 
